@@ -14,8 +14,8 @@ def db_config():
     return {
         'host': 'gateway01.ap-southeast-1.prod.aws.tidbcloud.com',
         'port': 4000,
-        'user': '34g2VqGrtKaDYbo.root',
-        'password': 'hbsne8KH4QKKfIT3',
+        'user': '342521.root',
+        'password': 'asderfIT3',
         'database': 'cricsheet_analysis',
         'ssl_ca' : 'True',
         'connect_timeout': 30
