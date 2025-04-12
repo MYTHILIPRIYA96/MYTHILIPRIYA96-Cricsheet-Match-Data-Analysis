@@ -23,10 +23,25 @@ A complete end-to-end cricket data analysis project using [Cricsheet](https://cr
 ##  Tech Stack
 
  **Python** – pandas, json, matplotlib, seaborn, plotly
- **SQL** – MySQL (TiDB Cloud) or SQLite
+ **SQL** – MySQL (TiDB Cloud) 
  **Streamlit** – frontend for interaction
  **Power BI** – visual dashboards
  **Cricsheet** – open-source match data
 
 ##  Project Structure
-cricsheet-analysis/ ├── data/ # Raw Cricsheet JSON files ├── scripts/ # Python scripts for parsing and processing │ ├── json_parser. │ └── db_insert ├── sql/ # SQL DDL and query │ ├── create_tables │ └── analysis_queries ├── streamlit_app/ # Streamlit dashboard │ └── app.py ├── powerbi/ # Power BI .pbix files └── README.md 
+cricsheet-analysis/ 
+├── data/ # Raw Cricsheet JSON files 
+├── scripts/ # Python scripts for parsing and processing │ 
+├── json_parser. 
+├── db_insert 
+├── sql/ # SQL DDL and query 
+├── create_tables 
+├──  analysis_queries 
+├── streamlit_app/ # Streamlit dashboard
+├── 20 sql
+├── cricsheet_dashboard.py
+├── cricket_EDA_Dashboard_preesentation.pptx files
+├── powerbi/ # cricsheet .pbix files └── README.md 
+
+##  License
+MIT License
