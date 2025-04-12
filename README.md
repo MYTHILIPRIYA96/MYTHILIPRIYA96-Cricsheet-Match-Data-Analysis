@@ -43,5 +43,59 @@ cricsheet-analysis/
 ├── cricket_EDA_Dashboard_preesentation.pptx files
 ├── powerbi/ # cricsheet .pbix files └── README.md 
 
+ data/
+This folder contains Cricsheet JSON files (the original data).
+
+Each file is a match: Test, ODI, T20, or IPL.
+
+These files are used as the raw input to your project.
+
+ parser/
+Contains Python code to read and clean the JSON files.
+
+Example: match_parser.py reads the innings, deliveries, teams, and players.
+
+It normalizes the nested data into clean tables (like DataFrames or SQL-ready formats).
+
+ db/
+Has all SQL files:
+
+create_tables.sql: defines your database schema (tables for matches, players, innings, deliveries, etc.)
+
+insights_queries.sql: stores your analysis queries (e.g., top batsman, win margin by team).
+
+This helps manage the database creation and insights generation.
+
+ visualizations/
+Contains a Jupyter notebook (cricsheet_dashboard.py) for Exploratory Data Analysis (EDA).
+
+You create graphs and visual insights using:
+
+matplotlib
+
+seaborn
+
+plotly
+
+Shows trends, player stats, match outcomes, and more.
+
+ streamlit_app/
+Your Streamlit dashboard code lives here ( cricsheet_dashboard.py).
+
+Displays real-time match data.
+
+Allows users to interact with the data.
+
+Shows tables, insights, and charts.
+
+
+ powerbi/
+Contains the Power BI cricsheet.pbix file.
+
+This dashboard gives a business-level summary of the match data.
+
+Helps with strategic decision-making using visuals like bar charts, pie charts, and trends.
+
+
 ##  License
 MIT License
