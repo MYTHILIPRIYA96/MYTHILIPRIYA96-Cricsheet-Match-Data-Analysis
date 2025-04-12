@@ -31,7 +31,7 @@ A complete end-to-end cricket data analysis project using [Cricsheet](https://cr
 ##  Project Structure
 cricsheet-analysis/ 
 ├── data/ # Raw Cricsheet JSON files 
-├── scripts/ # Python scripts for parsing and processing │ 
+├── scripts/ # Python scripts for parsing and processing  
 ├── json_parser. 
 ├── db_insert 
 ├── sql/ # SQL DDL and query 
