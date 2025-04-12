@@ -1,0 +1,91 @@
+Project Overview
+This project focuses on parsing ball-by-ball cricket match data from Cricsheet's JSON files, transforming it into structured tabular formats, and analyzing it using SQL queries, Python-based EDA, and visual dashboards in Streamlit ,presentation and Power BI.
+
+Problem Statement
+Cricsheet provides ball-by-ball cricket match data in JSON format, but it is unstructured and not readily usable for analytical or decision-making purposes. There is a need to automate the parsing, normalize the data, and store it in a structured SQL database for querying and analysis. Additionally, insights need to be visualized and presented in both Python-based EDA and Power BI dashboards for deeper understanding and engagement.
+
+ Project Objectives
+Extract and clean cricket match data from Cricsheet JSON files.
+Normalize and store structured match data into a MySQL (TiDB Cloud) database.
+Build a user-friendly Streamlit dashboard for:
+SQL-based data exploration.
+EDA visualizations using matplotlib, seaborn, and Plotly.
+Presentation slides showcasing key insights.
+Power BI dashboard integration for deeper business intelligence
+
+Project Explanation
+1. Data Source
+Manually download all the JSON files from  Cricsheet for Test, ODI, T20, and IPL formats.
+
+2.Data Processing:
+
+Parse JSON to extract key match data: players, innings, deliveries, scores, wickets, teams, venues.
+Convert nested JSON into flat DataFrames using pandas.
+Create separate CSVs for each format (IPL.csv, Test.csv, ODI.csv, T20.csv).
+Python libraries used: json, os, pandas
+For each match file:
+Extract metadata (teams, venue, date, toss).
+Flatten innings data into ball-by-ball delivery logs.
+Created separate DataFrames per format: ipl_df, odi_df, test_df, t20_df.
+
+3. Database Management
+Create a MySQL schema (cricsheet_analysis) hosted on TiDB Cloud.
+Insert cleaned data into normalized tables like:
+ipl_matches, t20_matches, odi_matches, test_matches
+
+Data Insertion
+Use SQLAlchemy or MySQL Connector/Python to insert records into the SQL database.
+
+ 4. SQL Queries for Data Analysis
+Write 20 analytical SQL queries, such as:
+            "Query 1: Top 10 Batsmen by Total Runs in IPL Matches",
+            "Query 2: Top 10 Wicket Takers in T20 Matches",
+            "Query 3: Team with Highest Win Count in Test Matches",
+            "Query 4: Most Matches Played by Team in ODI",
+            "Query 5: Batting Average (Player-wise in IPL)",
+            "Query 6: Total Runs by Each Team per Season (T20)",
+            "Query 7: Toss Winner vs Match Winner Analysis (Test)",
+            "Query 8: Venue with Most Matches Played in ODI",
+            "Query 9: Players with Most Sixes in IPL Matches",
+            "Query 10: Match Results by Margin of Victory (IPL)",
+            "Query 11: Top Partnerships (Batter + Non-striker in T20)",
+            "Query 12: Best Performing Venue for Teams (Test)",
+            "Query 13: Top 10 High Scoring Matches(IPL)",
+            "Query 14: Top 10 Highest Individual Scores in ODI Matches",
+            "Query 15: Most Common Toss Decisions in Test Matches",
+            "Query 16: Highest Team Scores",
+            "Query 17: Most Impactful Bowlers Wickets",
+            "Query 18: Compare Average Wickets per Match Across Formats",
+            "Query 19: Compare Average Runs per Match Across Formats",
+            "Query 20: Most Successful Batting Pairs (Highest Partnerships)"]
+5. Exploratory Data Analysis (EDA) using Python
+Create 10 visualizations using:
+matplotlib
+seaborn
+plotly
+    "Runs scored by top batters across formats",
+    "Most wickets taken by bowlers",
+    "Win margin distribution",
+    "Toss decision impact",
+    "Runs per over trend (Run Rate)",
+    "Extras type analysis",
+    "Team performance by season",
+    "Player dismissal types",
+    "Most successful chasing teams",
+    "Match locations heatmap"
+    
+
+6. Power BI Dashboard
+Connect Power BI to your SQL database and build:
+Interactive dashboards for:
+
+ Project Deliverables
+ Cleaned and structured JSON data
+ SQL database with test, odi, t20,ipl tables
+ 20 SQL queries for insights
+ Python-based EDA with 10 charts
+ Power BI Dashboard
+ Documentation and presentation
+
+ Conclusion
+This project successfully demonstrates how unstructured sports data can be transformed into an analytical goldmine using Python, SQL, and dashboard tools. The Streamlit and Power BI integrations enable both technical and non-technical users to explore match insights with ease.
