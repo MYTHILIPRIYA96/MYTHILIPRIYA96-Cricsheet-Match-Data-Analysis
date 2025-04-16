@@ -78,6 +78,10 @@ plotly
 6. Power BI Dashboard
 Connect Power BI to your SQL database and build:
 Interactive dashboards for:
+page 1: Player Performance Trends
+Page 2: Match Outcomes by Teams
+Page 3: Format-Based Win/Loss
+Page 4: Team vs Player Stats
 
  Project Deliverables
  Cleaned and structured JSON data
