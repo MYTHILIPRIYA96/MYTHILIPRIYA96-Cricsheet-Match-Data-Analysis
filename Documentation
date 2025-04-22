@@ -58,6 +58,85 @@ Write 20 analytical SQL queries, such as:
             "Query 18: Compare Average Wickets per Match Across Formats",
             "Query 19: Compare Average Runs per Match Across Formats",
             "Query 20: Most Successful Batting Pairs (Highest Partnerships)"]
+
+Business Use Cases and Corresponding Queries
+Player Performance Analysis
+
+Query 1: Top 10 Batsmen by Total Runs in IPL Matches
+
+Query 5: Batting Average (Player-wise in IPL)
+
+Query 9: Players with Most Sixes in IPL Matches
+
+Query 14: Top 10 Highest Individual Scores in ODI Matches
+
+Query 17: Most Impactful Bowlers Wickets
+
+Query 18: Compare Average Wickets per Match Across Formats
+
+Query 19: Compare Average Runs per Match Across Formats
+
+Use Case: These queries provide insights into individual player performance across formats. They help identify top players, their strengths, and areas for improvement, making them valuable for team selection, performance improvement, and sponsorship opportunities.
+
+Team Insights
+
+Query 3: Team with Highest Win Count in Test Matches
+
+Query 4: Most Matches Played by Team in ODI
+
+Query 6: Total Runs by Each Team per Season (T20)
+
+Query 8: Venue with Most Matches Played in ODI
+
+Query 12: Best Performing Venue for Teams (Test)
+
+Query 16: Highest Team Scores
+
+Query 20: Most Successful Batting Pairs (Highest Partnerships)
+
+Use Case: These queries help analyze team performance over time, identify trends in win/loss patterns, and highlight the best-performing venues. This information is crucial for team strategies, match preparation, and optimizing team formations.
+
+Match Outcomes
+
+Query 7: Toss Winner vs Match Winner Analysis (Test)
+
+Query 10: Match Results by Margin of Victory (IPL)
+
+Query 13: Top 10 High Scoring Matches (IPL)
+
+Query 15: Most Common Toss Decisions in Test Matches
+
+Query 11: Top Partnerships (Batter + Non-striker in T20)
+
+Use Case: These queries analyze the relationship between match outcomes, toss decisions, and margins of victory. The insights from these can help teams, analysts, and commentators predict outcomes and adjust their strategies for future matches.
+
+Strategic Decision-Making
+
+Query 2: Top 10 Wicket Takers in T20 Matches
+
+Query 12: Best Performing Venue for Teams (Test)
+
+Query 15: Most Common Toss Decisions in Test Matches
+
+Query 18: Compare Average Wickets per Match Across Formats
+
+Query 19: Compare Average Runs per Match Across Formats
+
+Use Case: These queries assist analysts, coaches, and team management in making data-driven decisions about player selection, match strategies, and venue choices, optimizing performance in future matches.
+
+Fan Engagement
+
+Query 13: Top 10 High Scoring Matches (IPL)
+
+Query 10: Match Results by Margin of Victory (IPL)
+
+Query 20: Most Successful Batting Pairs (Highest Partnerships)
+
+Query 9: Players with Most Sixes in IPL Matches
+
+Query 3: Team with Highest Win Count in Test Matches
+
+Use Case: These queries focus on exciting moments, high-scoring matches, and memorable player achievements, which can be presented in interactive dashboards for fans. This enhances fan engagement, promotes marketing campaigns, and increases interaction during live matches.
 5. Exploratory Data Analysis (EDA) using Python
 Create 10 visualizations using:
 matplotlib
